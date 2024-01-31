@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  env: { browser: true, es2020: true },
+  env: {browser: true, es2020: true},
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -13,13 +13,13 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': [
       'warn',
-      { allowConstantExport: true },
+      {allowConstantExport: true},
     ],
-    'prettier/prettier': ['error', {'endOfLine': 'auto'}],
-    'semi': ['error', 'never'],
-    'quotes': ['error', 'single'],
-    'indent': ['error', 2],
+    'prettier/prettier': ['error', {endOfLine: 'auto'}],
+    semi: ['error', 'never'],
+    quotes: ['error', 'single'],
+    indent: ['error', 2],
     'object-curly-spacing': ['error', 'never'],
-    'react/jsx-curly-spacing': [2, {'when': 'never', 'children': true}]
+    'react/jsx-curly-spacing': [2, {when: 'never', children: true}],
   },
 }
