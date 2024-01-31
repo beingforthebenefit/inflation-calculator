@@ -20,6 +20,5 @@ module.exports = {
     quotes: ['error', 'single'],
     indent: ['error', 2],
     'object-curly-spacing': ['error', 'never'],
-    'react/jsx-curly-spacing': [2, {when: 'never', children: true}],
   },
 }
